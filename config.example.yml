@@ -1,0 +1,8 @@
+mqtt:
+  uri: mqtt://localhost
+  prefix: orviboir/
+service:
+  devices:
+    - id: living
+      host: "192.168.1.23"
+      mac: "accf2752633a"

@@ -1,0 +1,24 @@
+{
+  "name": "orvibo-allone-mqtt",
+  "version": "1.0.0",
+  "description": "Send IR commands using an Allone (not the Pro model) via MQTT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denwilliams/orvibo-allone-mqtt.git"
+  },
+  "author": "Den Williams",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/denwilliams/orvibo-allone-mqtt/issues"
+  },
+  "homepage": "https://github.com/denwilliams/orvibo-allone-mqtt#readme",
+  "dependencies": {
+    "mqtt-usvc": "^1.0.6",
+    "node-orvibo": "^1.1.0",
+    "queue": "^4.5.0"
+  }
+}
